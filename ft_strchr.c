@@ -6,13 +6,13 @@
 /*   By: syonekur <syonekur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/22 19:58:33 by syonekur          #+#    #+#             */
-/*   Updated: 2024/01/03 14:33:19 by syonekur         ###   ########.fr       */
+/*   Updated: 2023/10/03 11:22:28 by syonekur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr( char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
 	while (*s)
 	{
